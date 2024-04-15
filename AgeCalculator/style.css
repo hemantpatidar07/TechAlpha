@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {background-image: linear-gradient( 109.6deg,  rgba(238,58,136,1) 11.2%,
+     rgba(128,162,245,1) 91.1% );
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: #6dbfd5;
+    padding: 25px;
+    width: 450px;
+    border-radius: 10px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    background: linear-gradient( 109.6deg,  rgba(238,58,136,1) 11.2%, rgba(128,162,245,1) 91.1% );
+}
+
+.input-box input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+}
+#calculate{
+    background-color: rgb(15, 151, 224);
+    position: relative;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    padding: 18px 10px;
+    border-radius: 30px;
+    outline: none;
+}
+
+.input-box img {
+    height: 55px;
+    width: 55px;
+}
+
+.output-box {
+    margin: 15px;
+}
+
+.output-box div {
+    display: flex;
+    align-items: center;
+    gap: 5;
+}
+
+#reset {
+    background-color:  rgb(15, 151, 224);;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    padding: 18px 10px;
+    border-radius: 30px;
+    outline: none;
+    border: none; 
+    width: calc(50% - 5px); 
+    margin-left: 5px;
+}
+
+#reset:hover {
+    background-color: #0ac083;
+    cursor: pointer;
+}
+
+
+.input-box {
+    display: flex;
+    justify-content: center; 
+    
+}
